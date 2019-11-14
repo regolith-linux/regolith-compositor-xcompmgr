@@ -1,0 +1,11 @@
+regolith-compositor-xcompmgr (1.0.1-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Use makefile to preserve file permissions. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 09 Nov 2019 20:07:53 -0800
+
+regolith-compositor-xcompmgr (1.0-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Initial commit 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 08 Nov 2019 07:15:37 -0800
