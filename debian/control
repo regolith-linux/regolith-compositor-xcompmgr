@@ -10,7 +10,8 @@ Vcs-Git: https://github.com/regolith-linux/regolith-compositor-xcompmgr.git
 Package: regolith-compositor-xcompmgr
 Architecture: any
 Depends: ${misc:Depends}, xcompmgr
-Description: Regolith configuration for Xcompmgr
 Provides: regolith-compositor
 Conflicts: regolith-compositor
 Replaces: regolith-compositor
+Description: Regolith configuration for Xcompmgr
+ A compositor init that uses xcompmgr.
