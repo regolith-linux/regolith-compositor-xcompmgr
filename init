@@ -1,6 +1,11 @@
 #!/bin/sh
 # See https://regolith-linux.org/docs/customize/compositors/
 
+compositor_PID=$(pidof xcompmgr)
+if [ ! -z "$compositor_PID" ]; then
+    kill $compositor_PID
+fi
+
 USER_CONFIG="$HOME/.config/regolith/xcompmgr/config"
 if [ -f "$USER_CONFIG" ]; then
   /bin/sh "$USER_CONFIG"

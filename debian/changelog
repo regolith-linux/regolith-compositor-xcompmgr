@@ -1,3 +1,10 @@
+regolith-compositor-xcompmgr (1.2.0-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Init script will kill pre-existing app instance before starting new. Part of fix for https://github.com/regolith-linux/regolith-desktop/issues/475.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 07 Sep 2020 13:49:08 -0700
+
 regolith-compositor-xcompmgr (1.1.0-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
