@@ -6,7 +6,7 @@ if [ ! -z "$compositor_PID" ]; then
     kill $compositor_PID
 fi
 
-USER_CONFIG="$HOME/.config/regolith2/xcompmgr/config"
+USER_CONFIG="$HOME/.config/regolith3/xcompmgr/config"
 if [ -f "$USER_CONFIG" ]; then
   /bin/sh "$USER_CONFIG"
 else
