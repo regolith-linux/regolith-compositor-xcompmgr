@@ -1,5 +1,5 @@
 #!/bin/sh
-# See https://regolith-linux.org/docs/customize/compositors/
+# See https://regolith-desktop.com/docs/howtos/customize-compositor/
 
 compositor_PID=$(pidof xcompmgr)
 if [ ! -z "$compositor_PID" ]; then
