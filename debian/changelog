@@ -1,3 +1,10 @@
+regolith-compositor-xcompmgr (1.4.1-1) focal; urgency=medium
+
+  [ rego-port-bot ]
+  * fix: point the init comment at the current compositor docs
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Wed, 11 Nov 2026 11:33:12 -0800
+
 regolith-compositor-xcompmgr (1.4.0-2) focal; urgency=medium
 
   [ Khosrow Moossavi ]
